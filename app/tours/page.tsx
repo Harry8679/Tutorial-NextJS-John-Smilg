@@ -17,9 +17,6 @@ const fecthTours = async () => {
 };
 
 async function ToursPage() {
-    // const response = await fetch(url);
-    // const data: Tour[] = await response.json();
-    // console.log(data);
     const data = await fecthTours();
 
     return (
